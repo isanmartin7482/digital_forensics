@@ -1,0 +1,12 @@
+
+A disk image is a virtual, exact copy of the contents of an actual storage device.
+
+
+dd if=dev/zero something of=mnt/diskimage.img
+
+
+A disk partition os a section of the hard drive that is seperated from other segments.
+
+
+I was told by you not to worry about the last 3 partition questions.
+
