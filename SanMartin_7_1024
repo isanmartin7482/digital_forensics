@@ -1,0 +1,15 @@
+1. Bandwith is the ammount of data that can be transported from one point to another in a given time period. 
+2. A channel is a frequency that wifi transmits and recives data on.
+3. 1, 6, and 11 are the most commonly used wifi channels because they are the only three that can operate on the same 2.4GHz frequency without overlapping. Wireless A supports a maximum theoretical transfer rate of 54 Mbps,
+ and operates on the 2.4GHz frequency.  Wireless B supports a maximum theoretical transfer rate of 11mbps, and operates on the 2.4GHz frequency. Wireless G supports a maximum theoretical transfer rate of 54mbps,
+ and operates on the 2.4GHz frequency. Wireless N supports a maximum theoretical transfer rate of 300mbps with 2 antennas, and operates on both 2.4GHz and 5GHz bands. AC IEEE supports a maximum theoretical transfer rate of 1Gbps,
+ and operates on both 2.4GHz and 5GHZ bands.
+4. WEP - First 802.11 security standard; was easly cracked and not well protected
+   WPA - Created to adress major WEP flaws; Is backwards compatible with WEP
+   WPA2 - Current standard; Newer hardware ensures advanced encryption doesn't affect performance
+5. WEP is the least secure because it uses RC4 stream cipher and 64-or 128-bit keys. WPA is the second most secure because it retains the use of RC4, but adds longer IVs,
+ 256-bit keys as well as using TKIP to provide each client with a new key. Finally, WPA2 is the most secure because it replaces RC4 and TKIP with CCMP and AES for stronger authentication.
+6. Airsnort is a linux utility used for decrypting WEP encryption on 802.11b network. 
+7. Kismet is an 802.11 wireless network detector, sniffer, and intrusion detection system.
+8.KARMA is a set of tools for assessing the security of wireless clients at multiple layers. Wireless sniffing tools discover clients and their preferred/trusted networks by passively listening for 802.11 Probe Request frames. 
+
