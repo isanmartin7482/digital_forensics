@@ -1,0 +1,21 @@
+1. Shows the partitionm tables as well as specify the media management type of kali-linux-2.0-amd64.iso
+2. I got the error:  "Invalid magic value (File is not a DOS partition (invalid primary magic) (Sector: 0))" This is because the image is not DOS partition.
+3. This showed a partitions table for manypartitions3.disk image
+4.Some are DOS and some are linux primarily.
+5. The numbers in the first collumn represent the sequence and order of the partitions.
+6. From which 2 positions in a sequence the partition takes up.
+7. Lists supported partition types.
+8.
+    raw - Single raw file 
+    aff - Advanced Forensic Format
+    afd - AFF Multiple File
+    afm - AFF with external metadata
+    afflib - All AFFLIB image formats including beta ones
+    ewf - Expert Witness format
+    split raw - Split raw files
+
+9. Shows a partition table for manypartitions3.disk 
+10. Shows a partition table along with allocated volumes for manypartitions3.disk
+11. We cant use that command but, it shows a partition table, list and with units
+12. It could help determine the file type and what type of files are hidden in different partitions
+ 
